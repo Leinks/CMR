@@ -32,12 +32,12 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => '127.0.0.1',
-		'username' => 'root',
-		'password' => '',
-		'database' => 'rise',
+		'hostname' => 'superconexdb-do-user-13149592-0.b.db.ondigitalocean.com',
+		'username' => 'doadmin',
+		'password' => 'AVNS_G7o_kwGtsPKXgm_C1DW',
+		'database' => 'defaultdb',
 		'DBDriver' => 'MySQLi',
-		'DBPrefix' => 'rise_',
+		'DBPrefix' => 'SC_',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'charset'  => 'utf8',
