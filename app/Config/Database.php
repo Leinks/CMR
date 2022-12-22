@@ -32,10 +32,10 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'superconexdb-do-user-13149592-0.b.db.ondigitalocean.com',
-		'username' => 'doadmin',
-		'password' => 'AVNS_G7o_kwGtsPKXgm_C1DW',
-		'database' => 'defaultdb',
+		'hostname' => '',
+		'username' => '',
+		'password' => '',
+		'database' => '',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => 'SC_',
 		'pConnect' => false,
