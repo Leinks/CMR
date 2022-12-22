@@ -156,22 +156,6 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>intl</td>
-                                                <td> <?php if ($intl_success) { ?>
-                                                        On
-                                                    <?php } else { ?>
-                                                        Off
-                                                    <?php } ?>
-                                                </td>
-                                                <td>On</td>
-                                                <td class="text-center">
-                                                    <?php if ($intl_success) { ?>
-                                                        <i data-feather="check-circle" class="status-icon"></i>
-                                                    <?php } else { ?>
-                                                        <i data-feather="x-circle" class="status-icon"></i>
-                                                    <?php } ?>
-                                                </td>
-                                            </tr>
                                             <tr>
                                                 <td>json</td>
                                                 <td> <?php if ($json_success) { ?>

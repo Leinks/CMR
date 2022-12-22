@@ -36,7 +36,7 @@ if (extension_loaded('mbstring')) {
 
 //check intl 
 if (extension_loaded('intl')) {
-    $intl_success = true;
+    $intl_success = false;
 }
 
 //check json 
